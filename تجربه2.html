@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bloodfilthmhnd</title>
+    <style>
+        @font-face {
+            font-family: 'Gothic';
+            src: url('https://fonts.gstatic.com/s/fruktur/v10/8QIJdijZitv49rDfuIgO6T6L.woff2') format('woff2');
+        }
+
+        body {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(51, 51, 51, 0.7)), 
+                        url('https://i.imgur.com/ydjudh6.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: #E0E0E0;
+            font-family: 'Gothic', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .popup {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: absolute;
+            left: -500px; /* بدء الحركة خارج الشاشة */
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #d1003f;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+            animation: slideIn 3s ease-in-out forwards;
+        }
+
+        .popup img {
+            width: 80px;
+            height: 80px;
+            margin-right: 15px;
+            border-radius: 50%;
+            border: 2px solid #d1003f;
+            box-shadow: 0 0 10px #d1003f;
+        }
+
+        .popup-text {
+            font-size: 1.2em;
+            color: #E0E0E0;
+            max-width: 300px;
+        }
+
+        .popup-text h1 {
+            margin: 0;
+            color: #d1003f;
+            text-shadow: 0 0 5px #d1003f;
+        }
+
+        .popup-text p {
+            font-family: 'Gothic', Arial, sans-serif;
+        }
+
+        .sidebar {
+            position: absolute;
+            top: 20px;
+            right: 30px; /* تم التغيير لوضعها في أقصى اليمين */
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #d1003f;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+            max-width: 300px;
+        }
+
+        .sidebar h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #d1003f;
+            text-shadow: 0 0 5px #d1003f;
+        }
+
+        .sidebar p {
+            font-size: 1em;
+            color: #E0E0E0;
+            text-align: justify;
+            font-family: 'Gothic', Arial, sans-serif;
+        }
+
+        .centered-section {
+            background: rgba(0, 0, 0, 0.8);
+            border: 2px solid #d1003f;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+            max-width: 300px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .centered-section h1 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #d1003f;
+            text-shadow: 0 0 5px #d1003f;
+        }
+
+        .centered-section p {
+            font-size: 1em;
+            color: #E0E0E0;
+            font-family: 'Gothic', Arial, sans-serif;
+        }
+
+        .highlight {
+            color: #d1003f;
+            text-shadow: 0 0 5px #d1003f;
+        }
+
+        @keyframes slideIn {
+            from {
+                left: -500px; /* خارج الشاشة */
+            }
+            to {
+                left: 20px; /* مكان ثابت داخل الصفحة */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <img src="https://i.imgur.com/W50TC1V.jpeg" alt="Guide Icon">
+        <div class="popup-text">
+            <h1 style="margin: 0; color: #d1003f;">The Cursed bloodfilthmhnd</h1>
+            <p>
+                Shadows whispering in the dark, their words <span class="highlight">venomous</span> and <span class="highlight">cruel</span>,  
+                tearing apart what little sanity remains.  
+                A symphony of <span class="highlight">despair</span>, conducted by unseen hands,  
+                pulling the strings of misery and anguish.  
+            </p>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h1>The Tainted Blood and Profane Curse</h1>
+        <p>
+            bloodfilthmhnd, the man whose very existence drips with <span class="highlight">venomous deceit</span>,  
+            was born under a <span class="highlight">cursed star</span> that doomed him to darkness.  
+            His hands have built empires of <span class="highlight">despair</span>, each stone laid with  
+            <span class="highlight">malice</span> and <span class="highlight">cruelty</span> unmatched. In his shadow, trust withers  
+            and hope dies, leaving behind only a wasteland of betrayal.  
+            His eyes, cold as a serpent’s,
+            <details>
+                <summary>see more </summary>
+                <p> pierce through the souls of  
+            those he manipulates, feeding off their despair. He thrives  
+            in chaos, sowing seeds of discord wherever he treads.  
+            Whispers of his deeds echo in the dark alleys, tales of  
+            atrocities that freeze the blood of even the bravest. His  
+            laugh is a cruel mockery of joy, a sound that heralds  
+            suffering. To call him a man would be an insult to humanity,  
+            for his heart beats with pure malice, and his veins run  
+            thick with corruption. Beware the name bloodfilthmhnd, for it  
+            is spoken only in fear and loathing.</p>
+            </details>
+        </p>
+    </div>
+
+    <div class="centered-section">
+        <h1>Impressions</h1>
+        <p>
+            The mere mention of <span class="highlight">bloodfilthmhnd</span> sends chills down the spine.  
+            His <span class="highlight">ruthlessness</span> and <span class="highlight">deceit</span> are legendary, inspiring both <span class="highlight">fear</span> and <span class="highlight">loathing</span>.  
+            Those who have crossed his path speak of an aura of <span class="highlight">malice</span> and  
+            a gaze that pierces the soul. He embodies the darkness  
+            that lurks within humanity, a true personification of evil.
+        </p>
+        <video controls width="300">
+            <source src="https://i.imgur.com/IgzQAL1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
